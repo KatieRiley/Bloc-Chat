@@ -7,12 +7,18 @@
 </head>
 <body>
     
+<<<<<<< HEAD
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+    <script src="/scripts/app.js"></script>
+</body>
+=======
     <ui-view></ui-view>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
     <script src="/scripts/app.js"></script>
     <script src="/scripts/controllers/RoomCtrl.js"></script>
     <script src="/scripts/factories/RoomFactory.js"></script>
+>>>>>>> List-Of-Rooms
     <script src="https://www.gstatic.com/firebasejs/3.5.0/firebase.js"></script>
     <script>
       // Initialize Firebase
@@ -25,6 +31,10 @@
       };
       firebase.initializeApp(config);
     </script>
+<<<<<<< HEAD
+</html>
+=======
     
     </body>
 </html>
+>>>>>>> List-Of-Rooms
